@@ -1,5 +1,4 @@
 from langchain_openai import OpenAIEmbeddings
-from pinecone import Pinecone
 from langchain_pinecone import PineconeVectorStore
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
